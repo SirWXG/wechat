@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hsgj" />
+        <module name="wxapplet-hsgj" />
+        <module name="wxapplet-hsjjzx" />
+        <module name="wxapplet-db" />
+        <module name="wxapplethsjjzx" />
+        <module name="wechatapp-master" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hsgj" target="1.8" />
+      <module name="wechatapp-master" target="1.8" />
+      <module name="wxapplet" target="1.8" />
+      <module name="wxapplet-db" target="1.8" />
+      <module name="wxapplet-hsgj" target="1.8" />
+      <module name="wxapplet-hsjjzx" target="1.8" />
+      <module name="wxapplethsjjzx" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wechatapp-master" options="-parameters" />
+      <module name="wxapplet-db" options="-parameters" />
+      <module name="wxapplet-hsgj" options="-parameters" />
+      <module name="wxapplet-hsjjzx" options="-parameters" />
+    </option>
+  </component>
+</project>

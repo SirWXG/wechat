@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fengdi.keepsheep.mapper.FPictureMapper" >
+  <resultMap id="BaseResultMap" type="com.fengdi.keepsheep.bean.FPicture" >
+    <id column="picture_no" property="pictureNo" jdbcType="VARCHAR" />
+    <result column="id" property="id" jdbcType="BIGINT" />
+    <result column="picture_name" property="pictureName" jdbcType="VARCHAR" />
+    <result column="picture_text" property="pictureText" jdbcType="VARCHAR" />
+    <result column="picture_area" property="pictureArea" jdbcType="VARCHAR" />
+    <result column="picture_type" property="pictureType" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="group_cnname" property="groupCnname" jdbcType="VARCHAR" />
+    <result column="admin_group_no" property="adminGroupNo" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="picture_img" property="pictureImg" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    picture_no, id, picture_name, picture_text, picture_area, picture_type, status, group_cnname, 
+    admin_group_no, create_time, update_time,picture_img
+  </sql>
+  <insert id="insert" parameterType="com.fengdi.keepsheep.bean.FPicture" >
+    insert into f_picture (picture_no, id, picture_name, 
+      picture_text, picture_area, picture_type, 
+      status, group_cnname, admin_group_no, 
+      create_time, update_time, picture_img
+      )
+    values (#{pictureNo,jdbcType=VARCHAR}, #{id,jdbcType=BIGINT}, #{pictureName,jdbcType=VARCHAR},
+      #{pictureText,jdbcType=VARCHAR}, #{pictureArea,jdbcType=VARCHAR}, #{pictureType,jdbcType=VARCHAR},
+      #{status,jdbcType=VARCHAR}, #{groupCnname,jdbcType=VARCHAR}, #{adminGroupNo,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, #{pictureImg,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <!--模糊查询加全查-->
+  <select id="selectPic" parameterType="string" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List" />
+    FROM f_picture
+    <where>
+      <if test="pictureArea!=null and pictureArea!=''">
+        picture_area LIKE CONCAT ('%',#{pictureArea},'%')
+      </if>
+    </where>
+  </select>
+
+  <delete id="deletePic" parameterType="string">
+    DELETE FROM f_picture
+    WHERE picture_no=#{pictureNo}
+  </delete>
+
+  <update id="updatePicStatus" parameterType="map">
+    UPDATE f_picture
+    SET status=#{status}
+    WHERE picture_no=#{pictureNo}
+  </update>
+
+  <select id="checkPic" resultType="int">
+    SELECT COUNT(*) FROM f_picture WHERE picture_area='平台轮播' AND status='yes'
+  </select>
+  <select id="checkPicForNote" resultType="int">
+    SELECT COUNT(*) FROM f_picture WHERE picture_area='新闻中心' AND status='yes'
+  </select>
+  <select id="checkPicForEmployee" resultType="int">
+  SELECT COUNT(*) FROM f_picture WHERE picture_area='公司平台展示' AND status='yes'
+  </select>
+  <select id="checkPicByProblem" resultType="int">
+    SELECT COUNT(*) FROM f_picture WHERE picture_area='问题展示' AND status='yes'
+  </select>
+  <select id="checkPicByHot" resultType="int">
+    SELECT COUNT(*) FROM f_picture WHERE picture_area='热门搜索' AND status='yes'
+  </select>
+
+  <select id="selectPictureByPno" parameterType="string" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List" />
+    FROM f_picture
+    WHERE
+    picture_no=#{pictureNo}
+  </select>
+
+  <select id="checkPicNum" parameterType="picture" resultType="int">
+    SELECT count(*) FROM  f_picture WHERE picture_type=#{pictureType} AND status='yes' AND picture_area=#{pictureArea}
+  </select>
+
+  <update id="updatePic" parameterType="picture">
+     update f_picture
+     set
+      picture_name = #{pictureName},
+      picture_text = #{pictureText},
+      picture_img = #{pictureImg}
+    where picture_no = #{pictureNo}
+  </update>
+  
+  <select id="selectPicByLBANDPTLB" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List"/>
+    FROM f_picture
+    WHERE picture_area='平台轮播' AND picture_type='展示图片' AND status='yes'
+  </select>
+
+  <select id="selectPicByHot" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List"/>
+    FROM f_picture
+    WHERE picture_area='热门搜索' AND picture_type='展示图片' AND status='yes'
+  </select>
+
+  <select id="selectPicByNote" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List"/>
+    FROM f_picture
+    WHERE picture_area='新闻中心' AND picture_type='展示图片' AND status='yes'
+  </select>
+
+  <select id="selectPicByProblem" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List" />
+    FROM f_picture
+    WHERE picture_area='问题展示' AND picture_type='展示图片' AND status='yes'
+  </select>
+
+  <select id="selectPicByEmployee" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List" />
+    FROM f_picture
+    WHERE picture_area='公司平台展示' AND picture_type='展示图片' AND status='yes'
+  </select>
+
+  <update id="updatePics" parameterType="picture">
+    update f_picture
+    set
+    picture_name = #{pictureName},
+    picture_text = #{pictureText}
+    where picture_no = #{pictureNo}
+  </update>
+
+
+</mapper>

@@ -1,0 +1,363 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/Fengdi/css/index.css"/>
+    <link rel="stylesheet" href="/Fengdi/css/font_1087916_6llt6lxnypg/iconfont.css"/>
+    <link rel="stylesheet" href="/Fengdi/css/font_1089438_x71yzm3wef/iconfont.css"/>
+    <link rel="stylesheet" href="/Fengdi/css/swiper.css"/>
+    <link rel="stylesheet" href="/Fengdi/css/e.css"/>
+    <link rel="stylesheet" href="/Fengdi/css/mui.min.css">
+    <script src="/Fengdi/js/jquery-1.9.1.js"></script>
+    <script src="/Fengdi/js/mui.min.js"></script>
+    <script src="/Fengdi/js/vue.js"></script>
+    <script src="/Fengdi/js/swiper.min.js"></script>
+    <script src="/Fengdi/js/e.js"></script>
+    <script src="/Fengdi/css/font_1087916_6llt6lxnypg/iconfont.js"></script>
+    <script src="/Fengdi/css/font_1089438_x71yzm3wef/iconfont.js"></script>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+</head>
+
+<body>
+<div id="app">
+    <div class="top_nav">
+        <div class="logo"><img src="/Fengdi/img/logo1.png"></div>
+        <ul class="nav">
+            <li><a href="#1F" id="a1">首页 /</a></li>
+            <li><a href="#2F">热门推荐 /</a></li>
+            <li><a href="#3F">新闻中心 /</a></li>
+            <li><a href="#4F">产品中心 /</a></li>
+            <li><a href="#5F">基地展示 /</a></li>
+            <li><a href="#6F">问题解决 /</a></li>
+            
+        </ul>
+        
+       <div class="gongneng_box">
+      	       <a href="http://swk.fg321.cn/keepsheep/api/member/shareRegister">登录</a>
+      	      <a href="http://swk.fg321.cn/keepsheep/api/member/shareRegister">注册</a>
+      </div>
+
+        <div class="app_anniu1"><a href="">APP下载</a></div>
+      <div class="clearfix"></div>
+      
+    </div>
+    <!--banner-->
+    <div class="banner_hezi" style="margin-top: 70px">
+        <!--热门-->
+        <a name="2F"></a>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" th:each="lunbo:${_before_lunbo}"><img th:src="${lunbo.pictureImg}" width="100%" height="800px" alt=""/></div>
+            </div>
+         <div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+        </div>
+        
+    </div>
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            effect: 'fade',
+            touchRatio: 0.5,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+    <!--热门推荐-->
+    <div class="popular">
+        <h2>热门推荐</h2>
+
+        <div class="popular-l"></div>
+        <p>我们用心为您做的更好</p>
+    </div>
+    <div class="recommend">
+        <div class="recommend-top">
+            <div class="recommend-left" th:each="hot:${_before_hot}">
+                <div class="recommend-img">
+                    <!--新闻-->
+                    <a name="3F"></a>
+                    <img th:src="${hot.pictureImg}" height="100%" width="100%" alt=""/>
+                    <div class="recommend-ping">
+
+                        <!--如果有需要,可以放一些文章在下面的p标签里-->
+                        <p th:text="${hot.pictureText}" style="text-align: center; margin-top: 100px; font-size: 22px; font-weight: bold;"></p >
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--新闻中心box-->
+    <div  class="xinwen">
+        <div class="xinwen_box">
+            <h1>新闻中心</h1>
+
+            <div class="popular-l"  style="margin-bottom: 20px"></div>
+        </div>
+        <div style="width: 60%;margin: 0 auto 30px;position: relative;">
+            <nav id="nav">
+                <ul type="none">
+                    <li th:class="${viewStat.index==0?'act':''}" th:each="view,viewStat:${_before_view}" th:text="${view.announcementName}">选卡1</li>
+                </ul>
+            </nav>
+            <!--内容部分HTML代码-->
+            <div id="container">
+                <!--产品-->
+                <a name="4F"></a>
+                <section class="tab">
+                    <div class="mui-slider">
+                        <div class="mui-slider-group mui-slider-loop">
+                            <!--支持循环，需要重复图片节点-->
+                            <div class="mui-slider-item mui-slider-item-duplicate"><a href=" "><img src="/Fengdi/img/5.png" /></a></div>
+                            <div class="mui-slider-item" th:each="notes:${_before_note}"><a href="#"><img th:src="${notes.pictureImg}"/><p>dsjgjh</p></a></div>
+                            <!--支持循环，需要重复图片节点-->
+                            <div class="mui-slider-item mui-slider-item-duplicate"><a href=" "><img src="/Fengdi/img/5.png" /></a></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+    <!--产品中心box-->
+    <div class="product">
+        <div class="product-text">
+            <h2>产品中心</h2>
+            <p style="float: right ;margin-right: 40px"><a href="http://swk.fg321.cn/keepsheep/api/member/shareRegister">更多</a></p>
+
+            <p>Product Center</p>
+        </div>
+        <div class="product-tan">
+            <!--三个图-->
+            <div class="product-main" th:each="product:${_product}">
+                <div class="product-img">
+                    <img th:src="${product.productImg}" width="100%" height="100%" alt=""/>
+                </div>
+                <p><b style="font-size: 20px" th:text="${product.productName}"></b></p>
+                <a name="5F"></a>
+                <div class="product-appear">
+                    <p th:text="${product.productIntroduction+'  >'}"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+		
+    <!--基地展示-->
+    <div class="base" style="border: 1px solid transparent;">
+        <div class="base-text">
+            <p style="font-size: 2rem;margin-top: 35px"><b>基地展示</b></p>
+        </div>
+        <div class="base-main">
+            <!-- 图一-->
+            <div th:each="employee,employeeStat:${_before_employee}" th:class="base-bg+${employeeStat.index+1}">
+                <div class="base-foot">
+                    <p th:text="${employee.pictureName}">我们的故事</p>
+                    <!-- 线-->
+                    <div class="base-line"></div>
+                </div>
+                <a name="6F"></a>
+                <div class="base-img">
+                    <a href=""><img th:src="${employee.pictureImg}" width="100%" height="240px" alt=""/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--回顶部-->
+    <div class="head">
+        <a onclick="pageScroll()" id="gotoTop"><span class="iconfont icon-huidingbu"></span></a>
+    </div>
+     <!--<div class="kefu">
+     	<a><img src="../../../img/微信图片_20190316114911.png"></a>
+     </div>-->
+    <!--留言框-->
+    
+    <!--问题设置-->
+     <div class="dakuang">
+     <div class="xiao_kuang">
+     <h1>解决方案</h1>
+
+         <div class="datu">
+             <img th:src="${problem.pictureImg}" th:each="problem:${_before_problem}">
+         </div>
+
+         <div class="zuo_hezi">
+     <div class= "text_zuo" th:each="question:${_before_question}" >
+
+     	<h3 th:text="${question.problemNo}"></h3>
+     	<div class="hengxiang"></div>
+     	<p th:text="${question.problemAnswers}"></p>
+     </div>
+         </div>
+
+     <div class="clearfix"></div>
+     </div>	
+     </div>
+    <!--页脚-->
+    <div class="yejiao_bj">
+        <div class="yejiao_box">
+            <div class="text_hezi" th:each="s:${m}">
+                <h1 th:text="${s.serviceName}"></h1>
+                <div class="hengxiang1"></div>
+                    <p th:each="fann:${s.s}" th:text="${fann.serviceName}"></p>
+            </div>
+            <div class="text_hezi">
+                <h1>全国咨询热线:</h1>
+
+                 <p>400-123-4567</p>
+
+
+            </div>
+           <!-- <div class="erweima">
+            <div class="weixin">
+            <img src="../../../img/weixing.png">
+            <p>微信扫码咨询</p>
+            
+            </div>
+            <div class="clearfix"></div>
+        </div>-->
+        
+    </div>
+
+
+        <div class="erweima" >
+
+            <div class="zhifu_hezi">
+                <p>支持的支付方式:</p>
+                <img class="weixin" src="/Fengdi/img/weixin_tubiao.png">
+                <img class="zhifubao" src="/Fengdi/img/zhifubao.png">
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="weixin">
+                <img src="/Fengdi/img/erweima.png">
+                <p><a href="">网页版注册</a></p>
+            </div>
+            <div class="app">
+                <img src="/Fengdi/img/erweima.png">
+                <p><a href="">APP下载</a></p>
+
+            </div>
+
+        </div>
+        <div class="clearfix"></div>
+        <!--页尾-->
+    <div class="yewei">
+    <div class="da_hengxiang"></div>
+    <p style="margin-left: 200px">深圳市一草一牧科技有限公司版权所有    备案号：粤ICP备1126452号</p>
+    </div>
+        <div class="clearfix"></div>
+</div>
+</div>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c43a2a12b5ed7a0f688a70f5b0b0f99d";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+<script>
+    $(".base-bg1").hover(function () {
+        $(".base-bg1").parent().parent().addClass("bg1").removeClass("bg2").removeClass("bg3")
+    })
+
+    $(".base-bg2").hover(function () {
+        $(".base-bg1").parent().parent().addClass("bg2").removeClass("bg1").removeClass("bg3")
+    })
+
+    $(".base-bg3").hover(function () {
+        $(".base-bg1").parent().parent().addClass("bg3").removeClass("bg2").removeClass("bg1")
+    })
+</script>
+<script>
+    function gotoTop(min_height) {
+        //预定义返回顶部的html代码，它的css样式默认为不显示
+        var gotoTop_html = '<div id="gotoTop">返回顶部</div>';
+        //将返回顶部的html代码插入页面上id为page的元素的末尾
+        $("#page").append(gotoTop_html);
+        $("#gotoTop").click(//定义返回顶部点击向上滚动的动画
+                function () {
+                    $('html,body').animate({scrollTop: 0}, 700);
+                }).hover(//为返回顶部增加鼠标进入的反馈效果，用添加删除css类实现
+                function () {
+                    $(this).addClass("hover");
+                },
+                function () {
+                    $(this).removeClass("hover");
+                });
+        //获取页面的最小高度，无传入值则默认为600像素
+        min_height ? min_height = min_height : min_height = 600;
+        //为窗口的scroll事件绑定处理函数
+        $(window).scroll(function () {
+            //获取窗口的滚动条的垂直位置
+            var s = $(window).scrollTop();
+            //当窗口的滚动条的垂直位置大于页面的最小高度时，让返回顶部元素渐现，否则渐隐
+            if (s > min_height) {
+                $("#gotoTop").fadeIn(100);
+            } else {
+                $("#gotoTop").fadeOut(200);
+            }
+            ;
+        });
+    }
+    ;
+    gotoTop();
+</script>
+<script>
+	$("#sp").click(function(){
+		$(".comments").hide();
+		setInterval(function(){
+			$(".comments").show()
+		},300000)
+	})
+</script>
+<script>
+    window.onload=function () {
+        var nav=document.getElementById('nav');
+        var oNav=nav.getElementsByTagName('li');
+
+        var container=document.getElementById('container');
+        var oDiv=container.getElementsByClassName('tab');
+        for(var i=0;i<oNav.length;i++){
+            oNav[i].index=i;
+            oNav[i].onclick=function () {
+                for(var i=0;i<oNav.length;i++){
+                    oNav[i].className='';
+                    oDiv[i].style.display="none";
+                }
+                this.className='act';
+                oDiv[this.index].style.display="block"
+            }
+            for(var m=1;m<oNav.length;m++){
+                oNav[m].className='';
+                oDiv[m].style.display="none";
+            }
+        }
+    };
+</script>
+<script>
+    //获得slider插件对象
+    var gallery = mui('.mui-slider');
+    gallery.slider({
+        interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+    });
+</script>
+</html>

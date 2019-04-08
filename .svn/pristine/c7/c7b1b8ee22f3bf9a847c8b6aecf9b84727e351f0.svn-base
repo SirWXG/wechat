@@ -1,0 +1,26 @@
+spring:
+  datasource:
+      druid:
+        url:  jdbc:mysql://39.107.221.175:3306/hsgj?useUnicode=true&characterEncoding=UTF-8
+        driver-class-name:  com.mysql.jdbc.Driver
+        username:  root
+        password:  hsgj123456
+        initial-size:  10
+        max-active:  50
+        min-idle:  10
+        max-wait:  60000
+        pool-prepared-statements:  true
+        max-pool-prepared-statement-per-connection-size:  20
+        validation-query:  SELECT 1 FROM DUAL
+        test-on-borrow:  false
+        test-on-return:  false
+        test-while-idle:  true
+        time-between-eviction-runs-millis:  60000
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.fengdi.wxapplet.db.entity  # 注意：对应实体类的路径
+pagehelper:
+  helperDialect:  mysql
+  reasonable: true
+  supportMethodsArguments:  true
+  params: count=countSql

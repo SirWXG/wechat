@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fengdi.keepsheep.mapper.FProductMapper" >
+  <resultMap id="BaseResultMap" type="com.fengdi.keepsheep.bean.FProduct" >
+    <id column="product_no" property="productNo" jdbcType="VARCHAR" />
+    <result column="id" property="id" jdbcType="BIGINT" />
+    <result column="product_name" property="productName" jdbcType="VARCHAR" />
+    <result column="product_introduction" property="productIntroduction" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="group_cnname" property="groupCnname" jdbcType="VARCHAR" />
+    <result column="admin_group_no" property="adminGroupNo" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="product_img" property="productImg" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    product_no, id, product_name, product_introduction, status, group_cnname, admin_group_no, 
+    create_time, update_time,product_img
+  </sql>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from f_product
+    where product_no = #{productNo,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.fengdi.keepsheep.bean.FProduct" >
+    insert into f_product (product_no, id, product_name, 
+      product_introduction, status, group_cnname, 
+      admin_group_no, create_time, update_time, 
+      product_img)
+    values (#{productNo,jdbcType=VARCHAR}, #{id,jdbcType=BIGINT}, #{productName,jdbcType=VARCHAR},
+      #{productIntroduction,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, #{groupCnname,jdbcType=VARCHAR}, 
+      #{adminGroupNo,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, 
+      #{productImg,jdbcType=VARCHAR})
+  </insert>
+
+  <select id="selectAllProduct" resultMap="BaseResultMap" parameterType="java.lang.String">
+    SELECT <include refid="Base_Column_List" />
+    FROM f_product
+    <where>
+      <if test="productName!=null and productName!=''">
+        product_name LIKE CONCAT ('%',#{productName},'%')
+      </if>
+    </where>
+  </select>
+
+  <select id="checkProductImg" resultType="int">
+    SELECT COUNT(*) FROM f_product WHERE status='yes'
+  </select>
+
+  <update id="updateProductStatus" parameterType="map">
+    UPDATE f_product
+    SET status=#{status}
+    WHERE product_no=#{productNo}
+  </update>
+
+  <select id="selectProductByPno" parameterType="string" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List" />
+    FROM f_product
+    WHERE product_no=#{productNo}
+  </select>
+
+  <update id="updateProduct" parameterType="map">
+      UPDATE f_product SET
+      product_name=#{productName},
+      product_introduction=#{productIntroduction},
+      product_img=#{productImg}
+      WHERE product_no=#{productNo}
+  </update>
+
+  <update id="updateProducts" parameterType="map">
+    UPDATE f_product SET
+    product_name=#{productName},
+    product_introduction=#{productIntroduction}
+    WHERE product_no=#{productNo}
+  </update>
+
+  <select id="selectProductForBefore" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List" />
+    FROM f_product
+    WHERE status='yes'
+  </select>
+
+</mapper>

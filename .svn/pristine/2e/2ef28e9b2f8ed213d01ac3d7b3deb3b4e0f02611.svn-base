@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fengdi.keepsheep.mapper.FAdminGroupMapper" >
+  <resultMap id="BaseResultMap" type="com.fengdi.keepsheep.bean.FAdminGroup" >
+    <id column="admin_group_no" property="adminGroupNo" jdbcType="VARCHAR" />
+    <result column="id" property="id" jdbcType="BIGINT" />
+    <result column="group_name" property="groupName" jdbcType="VARCHAR" />
+    <result column="group_cnname" property="groupCnname" jdbcType="VARCHAR" />
+    <result column="admin_no" property="adminNo" jdbcType="VARCHAR" />
+    <result column="founder" property="founder" jdbcType="VARCHAR" />
+    <result column="delstatus" property="delstatus" jdbcType="VARCHAR" />
+    <result column="edit_flag" property="editFlag" jdbcType="BIT" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="authorize_list" property="authorizeList" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    admin_group_no, id, group_name, group_cnname, admin_no, founder, delstatus, edit_flag,
+    create_time, update_time,authorize_list
+  </sql>
+  <select id="selectAllRoler" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List" />
+    FROM f_admin_group
+  </select>
+
+</mapper>

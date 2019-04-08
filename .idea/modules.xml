@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../wxapplet/wxapplet-hsgj/hsgj.iml" filepath="$PROJECT_DIR$/../wxapplet/wxapplet-hsgj/hsgj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wechatapp-master/wechatapp-master.iml" filepath="$PROJECT_DIR$/wechatapp-master/wechatapp-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxapplet.iml" filepath="$PROJECT_DIR$/wxapplet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wxapplet/wxapplet.iml" filepath="$PROJECT_DIR$/../wxapplet/wxapplet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxapplet-db/wxapplet-db.iml" filepath="$PROJECT_DIR$/wxapplet-db/wxapplet-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wxapplet/wxapplet-db/wxapplet-db.iml" filepath="$PROJECT_DIR$/../wxapplet/wxapplet-db/wxapplet-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxapplet-hsgj/wxapplet-hsgj.iml" filepath="$PROJECT_DIR$/wxapplet-hsgj/wxapplet-hsgj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxapplet-hsjjzx/wxapplet-hsjjzx.iml" filepath="$PROJECT_DIR$/wxapplet-hsjjzx/wxapplet-hsjjzx.iml" />
+    </modules>
+  </component>
+</project>

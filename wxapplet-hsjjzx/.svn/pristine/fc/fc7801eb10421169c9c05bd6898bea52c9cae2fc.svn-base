@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        security: DEBUG
+        web: ERROR
+      hibernate: DEBUG
+  pattern:
+    console: '%clr(%d{HH:mm:ss}){yellow} [%clr(%thread){red}] %-5level --- %clr(%logger){green} | %msg%n'
+
+spring:
+  profiles:
+    include: db
+  messages:
+    encoding: UTF-8
+
+
+
+

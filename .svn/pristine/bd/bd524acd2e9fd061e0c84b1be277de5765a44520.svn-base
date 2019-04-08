@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="6030bc01-23e6-4c18-b991-1c711a421e55" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/service/WxCategory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea" afterPath="$PROJECT_DIR$/.idea" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/WxappletDbApplication.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/WxappletDbApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Ad.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Ad.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Address.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Address.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AddressExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AddressExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AddressExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AddressExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AddressExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AddressExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AddressExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AddressExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Admin.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Admin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdminExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdminExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdminExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdminExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdminExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdminExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdminExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/AdminExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Brand.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Brand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/BrandExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/BrandExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/BrandExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/BrandExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/BrandExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/BrandExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/BrandExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/BrandExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Cart.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Cart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CartExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CartExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CartExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CartExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CartExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CartExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CartExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CartExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Category.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Category.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CategoryExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CategoryExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CategoryExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CategoryExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CategoryExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CategoryExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CategoryExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CategoryExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Collect.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Collect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CollectExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CollectExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CollectExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CollectExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CollectExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CollectExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CollectExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CollectExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Coupon.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Coupon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUser.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUserExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUserExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUserExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUserExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUserExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUserExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUserExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/CouponUserExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBack.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBackExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBackExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBackExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBackExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBackExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBackExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBackExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FeedBackExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrint.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrintExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrintExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrintExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrintExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrintExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrintExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrintExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/FootPrintExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Groupon.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Groupon.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/GrouponExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/GrouponExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/GrouponExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/GrouponExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/GrouponExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/GrouponExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/GrouponExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/GrouponExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWord.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWordExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWordExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWordExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWordExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWordExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWordExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWordExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/HotKeyWordExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Order.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoods.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoodsExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoodsExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoodsExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoodsExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoodsExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoodsExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoodsExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderGoodsExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItem.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItemExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItemExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItemExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItemExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItemExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItemExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItemExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/OrderItemExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Product.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ProductExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ProductExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ProductExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ProductExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ProductExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ProductExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ProductExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ProductExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Region.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Region.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/RegionExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/RegionExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/RegionExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/RegionExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/RegionExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/RegionExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/RegionExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/RegionExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Review.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/Review.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ReviewExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ReviewExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ReviewExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ReviewExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ReviewExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ReviewExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ReviewExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/ReviewExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistory.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistoryExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistoryExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistoryExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistoryExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistoryExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistoryExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistoryExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/SearchHistoryExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/User.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormid.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormidExample$Criteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormidExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormidExample$Criterion.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormidExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormidExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormidExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormidExample.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/entity/UserFormidExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/AdMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/AdMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/AddressMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/AddressMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/AdminMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/AdminMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/BrandMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/BrandMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CartMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CartMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CategoryMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CategoryMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CollectMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CollectMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CouponMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CouponMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CouponUserMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/CouponUserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/FeedBackMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/FeedBackMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/FootPrintMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/FootPrintMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/GrouponMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/GrouponMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/HotKeyWordMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/HotKeyWordMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/OrderGoodsMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/OrderGoodsMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/OrderItemMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/OrderItemMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/OrderMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/OrderMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/ProductMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/ProductMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/RegionMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/RegionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/ReviewMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/ReviewMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/SearchHistoryMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/SearchHistoryMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/UserFormidMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/UserFormidMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/mapper/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/service/CategoryService.class" afterPath="$PROJECT_DIR$/wxapplet-db/target/classes/com/fengdi/wxapplet/db/service/CategoryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-hsgj/target/classes/com/fengdi/wxapplet/hsgj/controller/WxHomeController.class" afterPath="$PROJECT_DIR$/wxapplet-hsgj/target/classes/com/fengdi/wxapplet/hsgj/controller/WxHomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_15_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_15_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/WxappletDbApplication.java" afterPath="$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/WxappletDbApplication.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/hsgj/target/" />
+    <ignored path="$PROJECT_DIR$/wxapplet-db/target/" />
+    <ignored path="$PROJECT_DIR$/wxapplet-hsgj/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/UserExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10431">
+              <caret line="572" column="0" lean-forward="false" selection-start-line="572" selection-start-column="0" selection-end-line="572" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WxHomeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/controller/WxHomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WxappletType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/common/WxappletType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WxCacheManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/service/WxCacheManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WxappletDbApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/WxappletDbApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WxCategory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/service/WxCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/service/CategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Autowired.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HsgjApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/HsgjApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/util/ResponseUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fengdi/wxapplet/WxappletApplication.java" />
+        <option value="$PROJECT_DIR$/wxapplet-db/src/test/java/com/fengdi/wxapplet/db/GenMain.java" />
+        <option value="$PROJECT_DIR$/wxapplet-db/src/main/resources/sql.xml" />
+        <option value="$PROJECT_DIR$/wxapplet-db/pom.xml" />
+        <option value="$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/AddressMapper.java" />
+        <option value="$PROJECT_DIR$/wxapplet-db/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/wxapplet-db/src/test/java/com/fengdi/wxapplet/db/DbCategoryQueryTest.java" />
+        <option value="$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/util/ResponseUtil.java" />
+        <option value="$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/service/WxCacheManager.java" />
+        <option value="$PROJECT_DIR$/wxapplet-db/src/main/resources/mapper/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/wxapplet-hsgj/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/wxapplet-hsgj/src/main/resources/application-hsgj.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/HsgjApplication.java" />
+        <option value="$PROJECT_DIR$/wxapplet-hsgj/pom.xml" />
+        <option value="$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class" />
+        <option value="$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/service/WxCategory.java" />
+        <option value="$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/WxappletDbApplication.java" />
+        <option value="$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/common/WxappletType.java" />
+        <option value="$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/controller/WxHomeController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wxapplet-hsgj" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wxapplet-hsgj" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet-hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet-hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet-hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet-hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet-hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet-hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet-hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hsgj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet-db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxapplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fengdi.wxapplet.db" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fengdi.wxapplet.hsgj.service" />
+      <recent name="com.fengdi.wxapplet.hsgj.util" />
+      <recent name="com.fengdi.wxapplet.db" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\wxapplet\wxapplet-db\src\main\java\com\fengdi\wxapplet\db\mapper" />
+      <recent name="G:\wxapplet\wxapplet-db\src\main\java\com\fengdi\wxapplet\db\entity" />
+      <recent name="G:\wxapplet\wxapplet-db\src\main\resources\mapper" />
+      <recent name="G:\wxapplet\wxapplet-db\src\main\resources" />
+      <recent name="G:\wxapplet\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HsgjApplication">
+    <configuration default="false" name="GenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fengdi.wxapplet.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.fengdi.wxapplet.db.GenMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="wxapplet-db" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DbCategoryQueryTest.testCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fengdi.wxapplet.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="wxapplet-db" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.fengdi.wxapplet.db" />
+      <option name="MAIN_CLASS_NAME" value="com.fengdi.wxapplet.db.DbCategoryQueryTest" />
+      <option name="METHOD_NAME" value="testCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="wxapplet" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="HsgjApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fengdi.wxapplet.hsgj.HsgjApplication" />
+      <module name="hsgj" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WxappletDbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fengdi.wxapplet.db.WxappletDbApplication" />
+      <module name="wxapplet-db" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.HsgjApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.WxappletDbApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GenMain" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DbCategoryQueryTest.testCategory" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DbCategoryQueryTest.testCategory" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GenMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\下载\svn\wxapplet" />
+          <option name="myCopyRoot" value="D:\下载\svn\wxapplet" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\下载\svn\wxapplet\.idea" />
+          <option name="myCopyRoot" value="D:\下载\svn\wxapplet\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\下载\svn\wxapplet\wxapplet-db" />
+          <option name="myCopyRoot" value="D:\下载\svn\wxapplet\wxapplet-db" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\下载\svn\wxapplet\wxapplet-hsgj" />
+          <option name="myCopyRoot" value="D:\下载\svn\wxapplet\wxapplet-hsgj" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\下载\svn\wxapplet" />
+          <option name="myCopyRoot" value="D:\下载\svn\wxapplet" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6030bc01-23e6-4c18-b991-1c711a421e55" name="Default" comment="" />
+      <created>1552981028124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552981028124</updated>
+      <workItem from="1552981029292" duration="2324000" />
+      <workItem from="1552983369394" duration="1555000" />
+      <workItem from="1552984951957" duration="9156000" />
+      <workItem from="1553045069960" duration="3721000" />
+      <workItem from="1553051196020" duration="9047000" />
+      <workItem from="1553322283433" duration="1387000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1553051315120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553051315120</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1553055628085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553055628085</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DbCategoryQueryTest_testCategory - 2019.03.19 at 17h 46m 45s.xml">
+      <configuration name="DbCategoryQueryTest.testCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbCategoryQueryTest_testCategory - 2019.03.19 at 17h 49m 10s.xml">
+      <configuration name="DbCategoryQueryTest.testCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbCategoryQueryTest_testCategory - 2019.03.19 at 17h 52m 03s.xml">
+      <configuration name="DbCategoryQueryTest.testCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbCategoryQueryTest_testCategory - 2019.03.19 at 17h 58m 47s.xml">
+      <configuration name="DbCategoryQueryTest.testCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbCategoryQueryTest_testCategory - 2019.03.19 at 18h 04m 11s.xml">
+      <configuration name="DbCategoryQueryTest.testCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbCategoryQueryTest_testCategory - 2019.03.19 at 18h 05m 23s.xml">
+      <configuration name="DbCategoryQueryTest.testCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbCategoryQueryTest_testCategory - 2019.03.19 at 18h 15m 42s.xml">
+      <configuration name="DbCategoryQueryTest.testCategory" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27190000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37173912" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20598006" sideWeight="0.49791232" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37173912" sideWeight="0.49166667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.228125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16099773" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38321996" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fengdi/wxapplet/WxappletApplication.java" />
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/resources/sql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1239">
+          <caret line="35" column="65" lean-forward="false" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/test/java/com/fengdi/wxapplet/db/GenMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/resources/mapper/AddressMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/RegionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/HotKeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/AdminExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/OrderItemExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/ReviewExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/HotKeyWordExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/Coupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/CouponUserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/UserFormidMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/ReviewMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/GrouponMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/AdMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/CouponMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/RegionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/mapper/AddressMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/Ad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/test/java/com/fengdi/wxapplet/db/WxappletDbApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/test/java/com/fengdi/wxapplet/db/DbCategoryQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/service.java" />
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/resources/mapper/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11544">
+          <caret line="312" column="40" lean-forward="false" selection-start-line="312" selection-start-column="40" selection-end-line="312" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="27" column="21" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/common.java" />
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/common/FF.java" />
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-995">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/resources/application-db.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/test/java/com/fengdi/wxapplet/hsgj/HsgjApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="93" column="21" lean-forward="false" selection-start-line="89" selection-start-column="7" selection-end-line="93" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/entity/UserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10431">
+          <caret line="572" column="0" lean-forward="false" selection-start-line="572" selection-start-column="0" selection-end-line="572" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/util/ResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/HsgjApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/service/WxCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/service/WxCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/WxappletDbApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/common/WxappletType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-db/src/main/java/com/fengdi/wxapplet/db/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapplet-hsgj/src/main/java/com/fengdi/wxapplet/hsgj/controller/WxHomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
